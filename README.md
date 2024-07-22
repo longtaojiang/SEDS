@@ -1,4 +1,4 @@
-# Uni-paint: A Unified Framework for Multimodal Image Inpainting with Pretrained Diffusion Model
+# SEDS: Semantically Enhanced Dual-Stream Encoder for Sign Language Retrieval
 
 #### Longtao Jiang<sup>1</sup>, Min Wang<sup>1</sup>, Zecheng Li<sup>1</sup>, Yao Fang<sup>2</sup>, Wengang Zhou<sup>1</sup>, Houqiang Li<sup>1</sup>.
 
