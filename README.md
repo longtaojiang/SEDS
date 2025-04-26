@@ -16,7 +16,22 @@ Sign language retrieval, as an emerging visual-language task, has received wides
 
 ## Citation
 ```
-Coming Soon
+@inproceedings{10.1145/3664647.3681237,
+author = {Jiang, Longtao and Wang, Min and Li, Zecheng and Fang, Yao and Zhou, Wengang and Li, Houqiang},
+title = {SEDS: Semantically Enhanced Dual-Stream Encoder for Sign Language Retrieval},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3681237},
+doi = {10.1145/3664647.3681237},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {5141–5150},
+numpages = {10},
+keywords = {feature fusion, multimodal alignment, sign language retrieval},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
+}
 ```
 
 ## Acknowledgment
