@@ -2,7 +2,7 @@
 
 <b> <a href='https://longtaojiang.github.io/'>Longtao Jiang</a>, Min Wang†, Zecheng Li, Yao Fang, <a href='http://staff.ustc.edu.cn/~zhwg/'>Wengang Zhou†</a>, <a href='http://staff.ustc.edu.cn/~lihq/en/'>Houqiang Li </a> </b>
 
-[Paper][https://arxiv.org/abs/2407.16394](https://arxiv.org/abs/2407.16394) 
+[Paper]: [https://arxiv.org/abs/2407.16394](https://arxiv.org/abs/2407.16394) 
 
 [Processed I3D Feature and RTM Keypoints](BaiduDrive (password: dire)(https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg) 
 
