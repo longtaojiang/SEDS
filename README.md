@@ -19,7 +19,7 @@
 
 ## SEDS pipeline
 <p align="center">
-<img src="seds.jpg" width=100%>
+<img src="seds.jpg" width=90%>
 </p>
 
 ## Requirements
