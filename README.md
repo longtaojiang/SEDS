@@ -4,13 +4,13 @@
 
 [Paper] [https://arxiv.org/abs/2407.16394](https://arxiv.org/abs/2407.16394) 
 
-[Processed I3D Feature and RTM Keypoints] [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg) 
+[Processed I3D Feature and RTM Keypoints] [BaiduDrive (password: seds](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA) 
 
-[Pre-trained model] [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+[Pre-trained model] [BaiduDrive (password: seds](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
 
 ## News
 - [2024/04/29] :fire: Release the code of SEDS and its guidance.
-- [2025/04/27] :fire: Release the processed dataset and pre-trained models. [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)/[BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+- [2025/04/27] :fire: Release the processed dataset and pre-trained models. [BaiduDrive (password: seds](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA)/[BaiduDrive (password: seds](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
 - [2024/07/24] :sparkles: Release [paper](https://arxiv.org/abs/2407.16394).
 - [2024/07/15] :tada: SEDS is accepted by ACM MM 2024.
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 ## Processed I3D Feature and RTM Keypoints
-The processed I3D feature and RTM keypoints can be downloaded from [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg) . The processed dataset is organized as follows:
+The processed I3D feature and RTM keypoints can be downloaded from [BaiduDrive (password: seds](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA). The processed dataset is organized as follows:
 ```
 SEDS
 └── datasets
