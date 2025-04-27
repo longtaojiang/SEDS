@@ -63,11 +63,6 @@ You can evaluate the DIRE model by running the following command:
 ```
 sh test.sh
 ```
-## Inference
-We also provide a inference demo `demo.py`. You can run the following command to inference a single image or a folder of images:
-```
-python demo.py -f [image_path/image_dir] -m [model_path]
-```
 
 ## Acknowledgments
 Our code is developed based on [CiCo](https://github.com/FangyunWei/SLRT/tree/main/CiCo). Thanks for their sharing codes and models.
@@ -92,6 +87,3 @@ location = {Melbourne VIC, Australia},
 series = {MM '24}
 }
 ```
-
-## Acknowledgment
-The code is built based on [CiCo](https://github.com/FangyunWei/SLRT).
