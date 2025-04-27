@@ -53,15 +53,29 @@ SEDS
 
 ```
 ## Training
-Before training, you should link the training real and DIRE images to the `data/train` folder. For example, you can link the DIRE images of real LSUN-Bedroom to `data/train/lsun_adm/0_real` and link the DIRE images of ADM-LSUN-Bedroom to `data/train/lsun_adm/1_fake`. And do the same for validation set and testing set, just modify `data/train` to `data/val` and `data/test`. Then, you can train the DIRE model by running the following command:
+Before training, you should move the `pretrain_signbert.pth` to the `ckpts` folder and move the `ViT-B-32.pt` to the `modules` folder. Then, you can train the DIRE model by running the following command:
 ```
-sh train.sh
+# train the model on CSL dataset.
+bash scripts/train_csl.sh
+
+# train the model on How2Sign dataset.
+bash scripts/train_h2s.sh
+
+# train the model on PHOENIX-2014-T dataset.
+bash scripts/train_ph.sh
 ```
 ## Evaluation
-We provide the pre-trained DIRE model in [[BaiduDrive (password: seds)](https://pan.baidu.com/s/1zdI1uS9h-bg39ZdsQuRzEg].
-You can evaluate the DIRE model by running the following command:
+We provide the pre-trained models in [[BaiduDrive (password: seds)](https://pan.baidu.com/s/1zdI1uS9h-bg39ZdsQuRzEg].
+You can evaluate the models on the different datasets by running the following command:
 ```
-sh test.sh
+# eval the model on CSL dataset.
+bash scripts/eval_csl.sh
+
+# eval the model on How2Sign dataset.
+bash scripts/eval_h2s.sh
+
+# eval the model on PHOENIX-2014-T dataset.
+bash scripts/eval_ph.sh
 ```
 
 ## Acknowledgments
