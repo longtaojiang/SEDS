@@ -4,29 +4,28 @@
 
 [Paper] [https://arxiv.org/abs/2407.16394](https://arxiv.org/abs/2407.16394) 
 
-[Processed I3D Feature and RTM Keypoints](BaiduDrive (password: dire)(https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg) 
+[Processed I3D Feature and RTM Keypoints] [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg) 
 
-[pre-trained model](BaiduDrive (password: dire)(https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+[Pre-trained model] [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
 
 ## News
-- [2024/09/26] :fire: Fix up the link of our data, model. We provide them in [[BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] and [[RecDrive (password: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)].
-- [2023/08/27] :fire: Release code, dataset and pre-trained models. [[OneDrive](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR)]/[[RecDrive (code: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)]
-
-- [2023/07/14] :tada: DIRE is accepted by ICCV 2023.
-- [2023/03/16] :sparkles: Release [paper](https://arxiv.org/abs/2303.09295).
+- [2024/04/29] :fire: Release the code of SEDS and its guidance.
+- [2025/04/27] :fire: Release the processed dataset and pre-trained models. [BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)/[BaiduDrive (password: dire](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+- [2024/07/24] :sparkles: Release [paper](https://arxiv.org/abs/2407.16394).
+- [2024/07/15] :tada: SEDS is accepted by ACM MM 2024.
 
 ## Abstract
 > Sign language retrieval, as an emerging visual-language task, has received widespread attention. Different from traditional video retrieval, it is more biased towards understanding the semantic information of human actions contained in video clips. Previous works typically only encode RGB videos to obtain high-level semantic features, resulting in local action details drowned in a large amount of visual information redundancy. Furthermore, existing RGB-based sign retrieval works suffer from the huge memory cost of dense visual data embedding in end-to-end training, and adopt offline RGB encoder instead, leading to suboptimal feature representation. To address these issues, we propose a novel sign language representation framework called Semantically Enhanced Dual-Stream Encoder (SEDS), which integrates Pose and RGB modalities to represent the local and global information of sign language videos. Specifically, the Pose encoder embeds the coordinates of keypoints corresponding to human joints, effectively capturing detailed action features. For better context-aware fusion of two video modalities, we propose a Cross Gloss Attention Fusion (CGAF) module to aggregate the adjacent clip features with similar semantic information from intra-modality and inter-modality. Moreover, a Pose-RGB Fine-grained Matching Objective is developed to enhance the aggregated fusion feature by contextual matching of fine-grained dual-stream features. Besides the offline RGB encoder, the whole framework only contains learnable lightweight networks, which can be trained end-to-end. Extensive experiments demonstrate that our framework significantly outperforms state-of-the-art methods on How2Sign, PHOENIX-2014T, and CSL-Daily datasets.
 
 ## SEDS pipeline
 <p align="center">
-<img src="figs/dire.png" width=60%>
+<img src="seds.jpg" width=60%>
 </p>
 
 ## Requirements
 ```
-conda create -n dire python=3.9
-conda activate dire
+conda create -n seds python=3.9
+conda activate seds
 pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
