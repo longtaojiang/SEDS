@@ -6,11 +6,11 @@
 
 [Processed I3D Feature and RTM Keypoints] [BaiduDrive (password: seds)](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA) 
 
-[Pre-trained model] [BaiduDrive (password: seds)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+[Pre-trained model] [BaiduDrive (password: seds)](https://pan.baidu.com/s/1zdI1uS9h-bg39ZdsQuRzEg)
 
 ## News
 - [2024/04/29] :fire: Release the code of SEDS and its guidance.
-- [2025/04/27] :fire: Release the processed dataset and pre-trained models. [BaiduDrive (password: seds)](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA)/[BaiduDrive (password: seds)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)
+- [2025/04/27] :fire: Release the processed dataset and pre-trained models. [BaiduDrive (password: seds)](https://pan.baidu.com/s/1bkDbIwgpA4OQiBEjDoPWfA)/[BaiduDrive (password: seds)](https://pan.baidu.com/s/1zdI1uS9h-bg39ZdsQuRzEg)
 - [2024/07/24] :sparkles: Release [paper](https://arxiv.org/abs/2407.16394).
 - [2024/07/15] :tada: SEDS is accepted by ACM MM 2024.
 
@@ -58,7 +58,7 @@ Before training, you should link the training real and DIRE images to the `data/
 sh train.sh
 ```
 ## Evaluation
-We provide the pre-trained DIRE model in [[BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] and [[RecDrive (password: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)].
+We provide the pre-trained DIRE model in [[BaiduDrive (password: seds)](https://pan.baidu.com/s/1zdI1uS9h-bg39ZdsQuRzEg].
 You can evaluate the DIRE model by running the following command:
 ```
 sh test.sh
