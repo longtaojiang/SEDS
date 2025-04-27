@@ -24,9 +24,9 @@
 
 ## Requirements
 ```
-conda create -n seds python=3.9
+conda create -n seds python=3.10
 conda activate seds
-pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==2.3.1+cu121 torchvision==0.18.1+cu121 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
 
